@@ -44,7 +44,7 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](assets/ssApp.jpg)
+![App Screenshot](src/assets/ssApp.jpg)
 
 ## License
 
