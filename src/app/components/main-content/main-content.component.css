@@ -1,0 +1,22 @@
+
+
+.areaTitle{
+    margin-top: 20px;
+}
+
+.btnFav{
+    color:red;
+    transition: all .2s ease-in-out;
+}
+
+.btnFav:active{
+    transform: scale(1.1);
+}
+
+.favorites{
+    margin-top: 10px;
+}
+
+.weatherDescription{
+    margin-top: 5px;
+}

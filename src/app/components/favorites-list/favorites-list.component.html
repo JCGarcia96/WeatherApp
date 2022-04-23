@@ -1,0 +1,4 @@
+<h3>Favorites</h3>
+<ul *ngFor="let favorite of favoriteCities" class="list-group">
+    <li class="list-group-item" (click)="getWeather(favorite.lat, favorite.lon, favorite.name, favorite.country)"><span>{{favorite.name}}, {{favorite.country}}</span></li>
+</ul>

@@ -1,0 +1,14 @@
+<div class="card weatherCard" >
+    <div class="card-body">
+      <h6 class="card-title dayPart">{{formatDay(dailyForecast.dt)}}</h6>
+      <h6 class="card-title">{{formatDate(dailyForecast.dt)}}</h6>
+      <div id="icon"><img id="wicon" [src]="'http://openweathermap.org/img/w/' + dailyForecast.weather[0].icon + '.png'" alt="Weather icon"></div>
+      <div><span class="maxTemp">{{dailyForecast.temp.max}}°</span><span class="minTemp">/{{dailyForecast.temp.min}}°C</span></div>
+      <div class="weatherDetails">
+          <div>Wind: {{dailyForecast.wind_speed}} km/h</div>
+          <div>Humidity: {{dailyForecast.humidity}}%</div>
+       </div>
+       <h6 class="weatherDescription">{{dailyForecast.weather[0].main}}</h6>
+      <a (click)="openDetail()" class="card-link detailLink">More</a>
+    </div>
+  </div>

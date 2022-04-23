@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Forecast } from './models/forecast';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'weatherAppTrimble';
+  forecast: Forecast;
+  sendForecast(forecast: Forecast){
+    this.forecast = forecast;
+  }
 }
