@@ -13,13 +13,13 @@ It shows the daily forecast and an hourly forecast for each day.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/JCGarcia96/WeatherApp.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd WeatherApp
 ```
 
 Install dependencies
