@@ -31,7 +31,7 @@ Install dependencies
 Start the server
 
 ```bash
-  ng serve - o
+  ng serve -o
 ```
 
 
