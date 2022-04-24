@@ -46,6 +46,10 @@ Start the server
 
 ![App Screenshot](src/assets/ssApp.jpg)
 
+## Links
+
+[Weather App Backend](https://github.com/JCGarcia96/WeatherAppBE)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
