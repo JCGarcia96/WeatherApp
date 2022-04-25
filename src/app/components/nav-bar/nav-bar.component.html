@@ -1,0 +1,7 @@
+<nav class="navbar navbar-light bg-light justify-content-between myNav">
+    <a class="navbar-brand myNavTitle">Weather App - Trimble</a>
+    <form class="form-inline" [formGroup]="searchForm" (ngSubmit)="searchArea()">
+      <input class="form-control mr-sm-2" type="search" formControlName="area" placeholder="Search by city/zipcode" aria-label="Search">
+      <button class="btn my-2 my-sm-0 myNavButton" id="button" type="submit" >Search</button>
+    </form>
+  </nav>

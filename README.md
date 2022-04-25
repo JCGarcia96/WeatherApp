@@ -1,27 +1,58 @@
-# WeatherAppTrimble
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
+# Weather App
 
-## Development server
+This is a weather app that allows the user to look for the weather of a specific area by city name or zipcode.
+It shows the daily forecast and an hourly forecast for each day.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ ## Tech Stack
 
-## Code scaffolding
+**Client:** Angular 12.2.16
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Run Locally
 
-## Build
+Clone the project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+  git clone https://link-to-project
+```
 
-## Running unit tests
+Go to the project directory
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+  cd my-project
+```
 
-## Running end-to-end tests
+Install dependencies
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+  npm install
+```
 
-## Further help
+Start the server
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+  ng serve - o
+```
+
+
+## Features
+
+- Search by city or zipcode
+- Forecast by day and by hour
+- Save favorite places
+
+
+## Screenshots
+
+![App Screenshot](assets/ssApp.jpg)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Acknowledgements
+
+ - [Open Weather Map](https://openweathermap.org/)
+
+
