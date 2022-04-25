@@ -25,6 +25,10 @@ export class WeatherCardComponent implements OnInit {
   }
   openDetail(){
     var date = this.datepipe.transform( this.dailyForecast.dt * 1000, 'yyyy-MM-dd')!;
+<<<<<<< HEAD
+=======
+    console.log(date);
+>>>>>>> bb9022b4fc2b4ede18f5115737531c433d168d37
     this.sendDate.emit(date);
   }
 }

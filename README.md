@@ -13,13 +13,13 @@ It shows the daily forecast and an hourly forecast for each day.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/JCGarcia96/WeatherApp.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd WeatherApp
 ```
 
 Install dependencies
@@ -31,7 +31,7 @@ Install dependencies
 Start the server
 
 ```bash
-  ng serve - o
+  ng serve -o
 ```
 
 
@@ -44,7 +44,11 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](assets/ssApp.jpg)
+![App Screenshot](src/assets/ssApp.jpg)
+
+## Links
+
+[Weather App Backend](https://github.com/JCGarcia96/WeatherAppBE)
 
 ## License
 

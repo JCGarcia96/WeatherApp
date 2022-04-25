@@ -31,14 +31,12 @@ export class NavBarComponent implements OnInit {
           this.geolocationService.getZipCodeLatLng({zipCode: area}).subscribe(res =>{
               var latlng = new LatLng(res.lat, res.lon)
               this.area = res;
-              console.log(res);
               this.searchWeather(latlng);
           }, error =>{
           }); 
         }else{
           var areaFound = res.find(f => area.toLowerCase() == f.name.toLowerCase());
           this.area = areaFound!;
-          console.log(res);
            var latlng = new LatLng(areaFound!.lat, areaFound!.lon)
            this.searchWeather(latlng);
         }
@@ -49,10 +47,8 @@ export class NavBarComponent implements OnInit {
   }
 
   searchWeather(latlng: LatLng){
-    console.log(latlng)
     this.weatherService.getWeatherByArea(latlng).subscribe(res => {
       res.area = this.area;
-      console.log(res);
       this.setWeather.emit(res);
     },error => {
 

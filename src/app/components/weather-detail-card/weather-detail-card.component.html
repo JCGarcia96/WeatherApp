@@ -4,7 +4,11 @@
       <div id="icon"><img id="wicon" [src]="'http://openweathermap.org/img/w/' + hourInfo.weather[0].icon + '.png'" alt="Weather icon"></div>
       <div><span class="maxTemp">{{hourInfo.temp}}°C</span></div>
       <div class="weatherDetails">
+<<<<<<< HEAD
           <div>Wind: {{hourInfo.windSpeed}} km/h</div>
+=======
+          <div>Wind: {{hourInfo.wind_speed}} km/h</div>
+>>>>>>> bb9022b4fc2b4ede18f5115737531c433d168d37
           <div>Humidity: {{hourInfo.humidity}}%</div>
        </div>
        <h6 class="weatherDescription">{{hourInfo.weather[0].main}}</h6>
