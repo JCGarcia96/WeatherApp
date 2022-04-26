@@ -15,6 +15,11 @@ Clone the project
 ```bash
   git clone https://github.com/JCGarcia96/WeatherApp.git
 ```
+Move to vueVersion brach
+
+```bash
+  git checkout vueVersion
+```
 
 Go to the project directory
 
