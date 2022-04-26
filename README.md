@@ -6,7 +6,7 @@ It shows the daily forecast and an hourly forecast for each day.
 
  ## Tech Stack
 
-**Client:** Angular 12.2.16
+**Client:** Vue 2.6.14
 
 ## Run Locally
 
@@ -31,7 +31,7 @@ Install dependencies
 Start the server
 
 ```bash
-  ng serve -o
+  npm run serve
 ```
 
 
